@@ -1,0 +1,38 @@
+# Hugo generated files
+/public/
+
+# Ignore macOS metadata
+.DS_Store
+
+# Ignore the Hugo cache directory
+/*/resources/
+
+# Ignore the Hugo cache in themes
+/themes/*/resources/
+
+# Ignore the public directory in themes
+/themes/*/public/
+
+# Ignore the Hugo cache in layouts
+/layouts/_default/resources/
+
+# Ignore the Hugo cache in content
+/content/_index.md
+/content/**/index.md
+/content/**/*.json
+
+# Ignore Netlify configuration files
+.netlify/
+netlify.toml
+
+# Ignore development environment files
+.env
+.env.local
+.env.*.local
+
+# Ignore Node.js files
+node_modules/
+package-lock.json
+
+# Intellij
+.idea
