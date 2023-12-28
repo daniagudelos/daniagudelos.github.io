@@ -3,6 +3,8 @@ title: "Lost"
 date: 2023-10-27T11:06:47+06:00
 draft: false
 
+image: "images/poems/lost.jpg"
+
 # meta description
 description: "Poem by Saitel Agudelo"
 

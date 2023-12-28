@@ -54,14 +54,24 @@ enableInlineShortcodes = true
   weight = 1
 
   [[menu.main]]
+  name = "Poems"
+  URL = "poems"
+  weight = 2
+
+  [[menu.main]]
+  name = "Engineering"
+  URL = "engineering"
+  weight = 3
+
+  [[menu.main]]
   name = "Post"
   URL = "blog"
-  weight = 2
+  weight = 4
 
   [[menu.main]]
   name = "Contact"
   URL = "contact"
-  weight = 3
+  weight = 5
 
   # footer menu
   [[menu.footer]]

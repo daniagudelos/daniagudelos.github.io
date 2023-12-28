@@ -14,7 +14,7 @@ tags:
   - "spanish"
 
 # post type
-type: "featured"
+type: "post"
 ---
 
 No te extraño, pero te pienso.\

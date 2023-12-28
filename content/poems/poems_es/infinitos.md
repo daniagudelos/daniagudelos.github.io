@@ -3,6 +3,8 @@ title: "Infinitos"
 date: 2022-09-26T11:06:47+06:00
 draft: false
 
+image: "images/poems/infinitos.jpg"
+  
 # meta description
 description: "Poem by Saitel Agudelo"
 

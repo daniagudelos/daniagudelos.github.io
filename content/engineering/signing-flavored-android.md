@@ -1,10 +1,10 @@
 ---
-title: "Signing android flavors with different keys"
+title: "Signing Android flavors with different keys"
 date: 2023-03-12T11:06:47+06:00
 draft: false
 
 # post thumb
-image: "images/post/signing_android_flavors.png"
+image: "images/engineering/signing_android_flavors.jpg"
 from: "yuri.samoilov.online"
 
 # meta description
@@ -21,13 +21,11 @@ tags:
 type: "featured"
 ---
 
-# Signing android flavors with different keys
+Do you have different android flavors and want to assign a different signing key to each one? This post is for you.
 
-## Problem
+# An example problem
 
-Imagine you have a mobile application delivered with different display shapes and color schemes according to the client.
-Each combination of display configuration and color scheme requires different signing keys. This post provides an
- example on how to address that situation.
+Imagine you have a mobile application which displays different shapes and color schemes according to the client. Each combination of shape and color scheme requires different signing keys.
 
 If you are not familiar with flavoring, please read the
 [Android Documentation](https://developer.android.com/studio/build/build-variants#product-flavors) first, so you can
@@ -35,10 +33,10 @@ understand the code.
 
 <hr>
 
-## Solution
+# Solution
 
 1. Define the shapes and colors as `ArrayList<String>`
-2. Define the flavor dimensions
+2. Define the flavor dimensions: `shapes` and `colors`
 3. Create the shape flavors, iterating the list of shapes
 4. Create the color flavors, iterating the list of colors
 5. Create the signing configuration for each shape-color flavor combination
