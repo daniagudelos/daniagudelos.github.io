@@ -31,6 +31,8 @@ This is a collection of sentences that have made me think and reflect about myse
 >
 > -- <cite>Ambrose Redmoon</cite>
 
+> Hope is not the conviction that something will turn out well, but the certainty that something makes sense, regardless of how it turns out.
+> -- <cite>Vaclav Havel</cite>
 
 ## From movies
 > Never drink to feel better. Only drink to feel even better.
