@@ -1,6 +1,6 @@
 ######################## default configuration ####################
 baseURL = "https://daniagudelos.github.io/"
-languageCode = "en-us"
+locate = "en-us"
 title = "daniagudelos | Personal blog"
 theme = "liva-hugo"
 summaryLength = "10"
@@ -9,8 +9,6 @@ disqusShortname = ""
 
 [outputs]
   home = ["HTML", "RSS", "JSON"]
-
-enableInlineShortcodes = true
 [markup.highlight]
   noClasses=false
 
